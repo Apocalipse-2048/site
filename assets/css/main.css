@@ -1,5 +1,9 @@
 @import url(fontawesome-all.min.css);
 
+.button-2048 {
+  height: 2.85em;
+}
+
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -159,7 +163,6 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -2336,11 +2339,6 @@ input, select, textarea {
 			}
 
 
-
-	.image {
-		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
-	}
-
 		.image.phone {
 			box-shadow: none;
 		}
@@ -2695,15 +2693,13 @@ input, select, textarea {
 	}
 
 		.spotlight .image {
-			width: 30%;
-			border-radius: 100%;
+			width: 50%;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -3114,7 +3110,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: #fec700;
 					color: #ffffff !important;
 				}
 
@@ -3123,7 +3119,7 @@ input, select, textarea {
 					.wrapper.style2 input[type="button"].primary:hover,
 					.wrapper.style2 button.primary:hover,
 					.wrapper.style2 .button.primary:hover {
-						background-color: #5ca3e8;
+						background-color: #ffd94e;
 					}
 
 					.wrapper.style2 input[type="submit"].primary:active,
@@ -3206,7 +3202,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 .icon {
-				color: #e0e0e0;
+				color: #ffc800;
 			}
 
 			.wrapper.style2 .image {
@@ -3552,8 +3548,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		color: #d1e5f9;
+		background-color: #ffc800;
+		color: #ffffff;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3567,10 +3563,6 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
-		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: auto, cover;
 		height: 100vh;
 		min-height: 35em;
 	}
@@ -3608,7 +3600,7 @@ input, select, textarea {
 			#header .button.primary {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #4696e5 !important;
+				color: #fec700 !important;
 			}
 
 		#header label {
