@@ -1988,7 +1988,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #3089e2;
+				background-color: #ffd94e;
 			}
 
 /* Form */
@@ -3127,7 +3127,7 @@ input, select, textarea {
 					.wrapper.style2 input[type="button"].primary:active,
 					.wrapper.style2 button.primary:active,
 					.wrapper.style2 .button.primary:active {
-						background-color: #3089e2;
+						background-color: #ffd94e;
 					}
 
 			.wrapper.style2 label {
@@ -3341,7 +3341,7 @@ input, select, textarea {
 					.wrapper.style3 input[type="button"].primary:active,
 					.wrapper.style3 button.primary:active,
 					.wrapper.style3 .button.primary:active {
-						background-color: #3089e2;
+						background-color: #ffd94e;
 					}
 
 			.wrapper.style3 label {
